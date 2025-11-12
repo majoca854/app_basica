@@ -97,7 +97,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown('<a id="inicio"></a><br><br>', unsafe_allow_html=True)
-st.image("img\Zonas_no_interconectadas.png")
+st.image("img\zonas_no_interconectadas.png")
 
 
 ########################################################################
