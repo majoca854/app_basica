@@ -86,7 +86,6 @@ st.set_page_config(
     initial_sidebar_state='collapsed'  # o expanded
 )
 
-
 st.markdown(
     '''
     <style>
