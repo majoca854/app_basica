@@ -76,7 +76,6 @@ delta_22 = round((tot_22 - tot_21)/ tot_21*100,2)
 df_depto_anios = df_colombia_continental.groupby(['DEPARTAMENTO', 'AÑO SERVICIO'])[['ENERGÍA ACTIVA']].sum().reset_index()
 departamentos = df_colombia_continental['DEPARTAMENTO'].unique().tolist()
 
-
 ########################################################################
 #                           CODIGO STREAMLIT                           #
 ########################################################################
