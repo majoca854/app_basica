@@ -61,6 +61,7 @@ df_activa = df_colombia_continental.pivot_table(
     aggfunc= 'sum'
 )
 
+
 tot_25 = df_activa[2025].to_list()[0]
 tot_24 = df_activa[2024].to_list()[0]
 tot_23 = df_activa[2023].to_list()[0]
